@@ -43,7 +43,7 @@ a:hover{
    box-shadow: 10px 10px 10px 10px  rgba(128, 0, 128, 0.386);
    margin-bottom: 100px;
    margin-top: 100px;
-  transition: 1.3s;
+   transition: 1.3s;
 }
 #ameliyatlar:hover{
   box-shadow: 0 0 40px black;
@@ -112,10 +112,10 @@ h3{
   box-shadow: 0 0 10px black;
   border: 100px;
   margin-bottom: 50px;
+  transition: 1s;
 }
 #yer:hover{
   box-shadow: 0 0 60px rgb(0, 66, 128);
-  transition: 1s;
 }
 #map{
   margin-left: 18%;
@@ -123,12 +123,32 @@ h3{
   border-radius: 10px;
   height: 80;
 }
-
 iframe{
-  width: 100%;
+  width: 50%;
+  border-radius: 10px;
+  margin-left: 25%;
 }
+#map{
+  background-color: aliceblue;
+  margin-left: 60px;
+  width: 80%;
+}
+
+#boss{
+  background-color: blue;
+  width: 400px;
+  margin-right: 100px;
+}
+
+#builder{
+  width: 250px;
+  border-radius: 200px;
+  /* margin-left: 100px; */
+  /* display: block; */
+}
+
 /* 
-1)çalışanları yapmakd
+1)çalışanları yapmak
 3)pargrafları istemek 
 4)fotoraf istemek (arka plan)
 5)çalışanların bulunan bir fotoraf istemek */
