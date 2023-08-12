@@ -1,150 +1,151 @@
 *{
-    margin: 0%;
+  margin: 0%;
 }
 body{
-    font-family: 'Climate Crisis', cursive;
-    background-image: url(hs-veteriner-klinigi-5174041.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+  font-family: 'Climate Crisis', cursive;
+  background-image: url(hs-veteriner-klinigi-5174041.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 h1{
-    margin-left: 750px;
-    color: rgba(0, 0, 0, 0.859);
+  margin-left: 750px;
+  color: rgba(0, 0, 0, 0.859);
 }
 #yantaraf{
-  background-color: rgba(0, 0, 0, 0.172);
-  width: 280px;
-  position:fixed;
-  left: 0%;
-  top: 0%;
-  height: 100%;
+background-color: rgba(0, 0, 0, 0.172);
+width: 280px;
+position:fixed;
+left: 0%;
+top: 0%;
+height: 100%;
 }
 a{
-  color: white;
-  text-decoration: none;
-  display: block;
-  text-align: center;
-  font-family: 'Reem Kufi Ink', sans-serif;
-  font-size: 25px;
-  transition: 0.3s;
-  background-color: rgba(0, 0, 0, 0.534);
+color: white;
+text-decoration: none;
+display: block;
+text-align: center;
+font-family: 'Reem Kufi Ink', sans-serif;
+font-size: 25px;
+transition: 0.3s;
+background-color: rgba(0, 0, 0, 0.534);
 }
 a:hover{
-  transition: 10ms;
-  box-shadow: 0 0 10px ;
+transition: 10ms;
+box-shadow: 0 0 10px ;
 }
-#ameliyatlar{
-   background-color: rgba(0, 0, 0, 0.401); 
-   width: 75%;
-   margin-left: 300px;
-   padding-bottom: 60px;
-   border-radius: 40px;
-   box-shadow: 10px 10px 10px 10px  rgba(128, 0, 128, 0.386);
-   margin-bottom: 100px;
-   margin-top: 100px;
-   transition: 1.3s;
+.ameliyatlar{
+ background-color: rgba(0, 0, 0, 0.401); 
+ width: 75%;
+ margin-left: 300px;
+ padding-bottom: 60px;
+ border-radius: 40px;
+ box-shadow: 10px 10px 10px 10px  rgba(128, 0, 128, 0.386);
+ margin-bottom: 100px;
+ margin-top: 100px;
+ transition: 1.3s;
 }
-#ameliyatlar:hover{
-  box-shadow: 0 0 40px black;
+.ameliyatlar:hover{
+box-shadow: 0 0 40px black;
 }
 #logo{
-  text-align: center;
-  margin: 20px;
-  transition: 1s;
+text-align: center;
+margin: 20px;
+transition: 1s;
 }
 #logo:hover{
-  transform: scale(2.1);
-  transform: rotate(-10deg);
-  margin-bottom: 30px;
-  text-shadow: 0 0 40px yellow;
+transform: scale(2.1);
+transform: rotate(-10deg);
+margin-bottom: 30px;
+text-shadow: 0 0 40px yellow;
 }
 h2{
-  margin: 10px;
-  text-align: center;
+margin: 10px;
+text-align: center;
 }
 img{
-    width: 500px;
-    border-radius: 10px;
-    display: block;
-    margin-left: 325px;
-    box-shadow: 10px 10px 10px black;
-    transition: 2s;
+  width: 500px;
+  border-radius: 10px;
+  display: block;
+  margin-left: 325px;
+  box-shadow: 10px 10px 10px black;
+  transition: 2s;
 }
 img:hover{
-  box-shadow: 0 0 10px yellow;
+box-shadow: 0 0 10px yellow;
 }
 a{
-   box-shadow: 0px 0px 10px  purple; 
-   margin: 10px;
+ box-shadow: 0px 0px 10px  purple; 
+ margin: 10px;
 }
 h1{
-  text-shadow: 0 0 50px blue;
+text-shadow: 0 0 50px blue;
 }
 /* biz */
 #biz{
-  background-color: hwb(295 2% 46% / 0.813);
-  width: 80%;
-  margin-left: 300px;
-  border-radius: 100px;
-  box-shadow: 0 0 30px purple;
-  border: 10px;
-  margin-bottom: 100px;
+background-color: hwb(295 2% 46% / 0.813);
+width: 75%;
+margin-left: 300px;
+border-radius: 100px;
+box-shadow: 0 0 30px purple;
+border: 10px;
+margin-bottom: 100px;
 }
 #zib{
-  text-shadow: 0 0 10px red;
-  padding: 10px;
+text-shadow: 0 0 10px red;
+padding: 10px;
 }
 #zib:hover{
-  transition: 1s;
-  text-shadow: 0 0 10px pink;
+transition: 1s;
+text-shadow: 0 0 10px pink;
 }
 /* yerleşim */
 h3{
-  margin-left: 48%;
+margin-left: 48%;
 }
 #yer{
-  background-color: rgba(0, 0, 255, 0.445);
-  height: 90%;
-  width: 60%;
-  margin-left: 20%;
-  border-radius: 30px;
-  box-shadow: 0 0 10px black;
-  border: 100px;
-  margin-bottom: 50px;
-  transition: 1s;
+background-color: rgba(0, 0, 255, 0.445);
+height: 90%;
+width: 60%;
+margin-left: 20%;
+border-radius: 30px;
+box-shadow: 0 0 10px black;
+border: 100px;
+margin-bottom: 50px;
+transition: 1s;
 }
 #yer:hover{
-  box-shadow: 0 0 60px rgb(0, 66, 128);
+box-shadow: 0 0 60px rgb(0, 66, 128);
 }
 #map{
-  margin-left: 18%;
-  margin-bottom: 50px;
-  border-radius: 10px;
-  height: 80;
+margin-left: 18%;
+margin-bottom: 50px;
+border-radius: 10px;
+height: 80px;
 }
 iframe{
-  width: 50%;
-  border-radius: 10px;
-  margin-left: 25%;
+width: 50%;
+border-radius: 10px;
+margin-left: 25%;
 }
 #map{
-  background-color: aliceblue;
-  margin-left: 60px;
-  width: 80%;
+background-color: aliceblue;
+margin-left: 60px;
+width: 80%;
 }
 
 #boss{
-  background-color: blue;
-  width: 400px;
-  margin-right: 100px;
+background-color: blue;
+width: 400px;
+margin-right: 100px;
+
 }
 
 #builder{
-  width: 250px;
-  border-radius: 200px;
-  /* margin-left: 100px; */
-  /* display: block; */
+width: 250px;
+border-radius: 200px;
+/* margin-left: 100px; */
+
 }
 
 /* 
