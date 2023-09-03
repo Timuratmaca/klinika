@@ -1,6 +1,9 @@
 *{
   margin: 0%;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   font-family: 'Climate Crisis', cursive;
   background-image: url(hs-veteriner-klinigi-5174041.jpg);
@@ -8,17 +11,29 @@ body{
   background-attachment: fixed;
   background-position: center;
 }
+p{
+  /* box-shadow: 0 0 10px black;ws */
+  margin-bottom: 2%;
+  text-align: center;
+}
 h1{
-  margin-left: 750px;
-  color: rgba(0, 0, 0, 0.859);
+  margin-left: 300px;
+  color: rgba(255, 255, 255, 0.859);
+  text-shadow: 0 0 50px blue;
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 #yantaraf{
 background-color: rgba(0, 0, 0, 0.172);
 width: 280px;
 position:fixed;
-left: 0%;
-top: 0%;
 height: 100%;
+top: 0;
+}
+#desert{
+  /* background-color: black; */
+  margin-top: 10%;
 }
 a{
 color: white;
@@ -35,15 +50,17 @@ transition: 10ms;
 box-shadow: 0 0 10px ;
 }
 .ameliyatlar{
- background-color: rgba(0, 0, 0, 0.401); 
- width: 75%;
+ background-color: rgba(255, 255, 255, 0.401); 
  margin-left: 300px;
- padding-bottom: 60px;
+ padding-bottom: 52px;
+ /* padding-top: 60px; */
  border-radius: 40px;
  box-shadow: 10px 10px 10px 10px  rgba(128, 0, 128, 0.386);
  margin-bottom: 100px;
  margin-top: 100px;
  transition: 1.3s;
+ width: calc(100% - 320px);
+ overflow: hidden;
 }
 .ameliyatlar:hover{
 box-shadow: 0 0 40px black;
@@ -62,14 +79,17 @@ text-shadow: 0 0 40px yellow;
 h2{
 margin: 10px;
 text-align: center;
+color: white;
+font-weight: normal;
 }
 img{
-  width: 500px;
+  width: 90%;
   border-radius: 10px;
   display: block;
-  margin-left: 325px;
   box-shadow: 10px 10px 10px black;
   transition: 2s;
+  margin: auto;
+  max-width: 500px;
 }
 img:hover{
 box-shadow: 0 0 10px yellow;
@@ -77,9 +97,6 @@ box-shadow: 0 0 10px yellow;
 a{
  box-shadow: 0px 0px 10px  purple; 
  margin: 10px;
-}
-h1{
-text-shadow: 0 0 50px blue;
 }
 /* biz */
 #biz{
@@ -89,20 +106,20 @@ margin-left: 300px;
 border-radius: 100px;
 box-shadow: 0 0 30px purple;
 border: 10px;
+text-align: center;
 margin-bottom: 100px;
 }
 #zib{
 text-shadow: 0 0 10px red;
 padding: 10px;
+color:white;
+font-weight: normal;
 }
 #zib:hover{
 transition: 1s;
 text-shadow: 0 0 10px pink;
 }
 /* yerleşim */
-h3{
-margin-left: 48%;
-}
 #yer{
 background-color: rgba(0, 0, 255, 0.445);
 height: 90%;
@@ -113,6 +130,7 @@ box-shadow: 0 0 10px black;
 border: 100px;
 margin-bottom: 50px;
 transition: 1s;
+overflow: hidden;
 }
 #yer:hover{
 box-shadow: 0 0 60px rgb(0, 66, 128);
@@ -126,30 +144,172 @@ height: 80px;
 iframe{
 width: 50%;
 border-radius: 10px;
-margin-left: 25%;
+height: 300px;
+margin-bottom: 5%;
 }
-#map{
-background-color: aliceblue;
-margin-left: 60px;
-width: 80%;
+#ppl{
+  color: rgba(116, 116, 214, 0.534) ;
+  box-shadow: rgba(0, 0, 113, 0.534);
 }
-
-#boss{
-background-color: blue;
-width: 400px;
-margin-right: 100px;
-
+#mapsd{
+color: rgb(0, 136, 255);
+box-shadow: rgb(0, 136, 255);
 }
-
-#builder{
+/* kişiler */
+#pipl{
+text-shadow: 0 0 20px rgb(0, 71, 73);
+transition: 1s;
+}
+#pipl:hover{
+  text-shadow: 0 0 50px rgb(142, 0, 0);
+}
+.builder{
+width: 40%;
+background-color: rgba(0, 0, 255, 0.459);
+/* margin-left: 15%; */
+height: 700px;
+border-radius: 100px;
+margin-bottom: 50px;
+margin-top: 10px;
+display:inline-block;
+vertical-align: top;
+margin-left: 5px;
+margin-right: 5px;
+}
+.boss{
 width: 250px;
 border-radius: 200px;
-/* margin-left: 100px; */
+display: inline-block;
+margin-left: 5%;
+margin-bottom: 2%;
+margin-top: 5%;
+}
+.hs{
+  margin-top: 5%;
+}
+label{
+background-color: gold;
+width: 50px;
+height: 50px;
+/* position: absolute; */
+display: none;
+position: relative;
+z-index: 10;
+}
+/* #check{
+  position:none;
+} */
+span{
+background-color: white;
+height: 2px;
+width: 90%;
+position: absolute;
+top: 24px;
+left: 5%;
+}
+span::before{
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  content: "";
+  top: 10px;
+}
+span::after{
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  content: "";
+  top: -10px;
+}
+#check:checked ~ div{
+  display: block;
+}
+#contacts{
+  display: inline-block;
+  /* daha sonra değiştirilebilir */
+  background-color: lawngreen;
+  width: 90%;
+  border-radius: 70px;
+  margin-bottom: 5%;
+  text-align: center;
+  /* neden height çalışmıyor  */
+  /* height: 400%; */
+}
+.phone{
+  display: inline-block;
+   /* neden height çalışmıyor  */
+  /* height: 100%; */
+  border-radius: 40px;
+  margin-bottom: 2%;
+  background-color: transparent;
+  box-shadow: none;
 
 }
+.phone img{
+  background-color: transparent;
 
-/* 
-1)çalışanları yapmak
-3)pargrafları istemek 
-4)fotoraf istemek (arka plan)
-5)çalışanların bulunan bir fotoraf istemek */
+}
+.phone p{
+  background-color: rgba(0, 0, 0, 0.618);
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+.phone:hover{
+  box-shadow: none;
+}
+.photos{
+  width: 60px ;
+  display: inline-block;
+  border-radius: 40px;
+  
+}
+#web{
+  color: brown;
+  margin-bottom: 2%;
+}
+#cont{
+  color: lawngreen;
+}
+
+
+
+@media (max-width:600px){
+h1{
+  margin:0;
+}
+.ameliyatlar{
+width: 80%;
+margin-left: 0%; 
+
+}
+#biz{
+  margin:  0;
+}
+
+
+img{
+width: 70%;
+}
+body{
+  font-family: 'Climate Crisis', cursive;
+  background-image: url(hs-veteriner-klinigi-5174041.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+#yantaraf{
+  display: none;
+  width: 100%;
+}
+p{
+  width: 40%;
+}
+label{
+  display: block;
+}
+
+
+}

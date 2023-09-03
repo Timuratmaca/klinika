@@ -1,8 +1,23 @@
-
 Сделать тег сильным
-/* display: block; */
+; /* display: block; */
 Сделать тег средним:
-/* display:inlane-block; */
+; /* display:inlane-block; */
 let:pirimennaya
 getElementsByClassName:nayti tegi po classu
+
 ucetel gmail: yerenkoff@gmail.com
+
+Чтобы поставить по центру теги со свойством display: inline-block, нужно их родителю задать text-align: center
+
+padding-bottom= otsyup vnutri-snizu
+
+Чтобы тебя переносило на другой сайт, если ты нажал на параграф, нужно поставить параграф внутри тега <a href=""></a>
+
+overflow:hidden; = Чтобы у заголовка göz был марджин сверху,
+
+Calc нужен для того, чтобы из процентов вычитать пиксели
+
+font-weight: ; - вес шрифта (можно сделать толстые буквы или тонкие)
+
+zakrugleniye
+; border-radius: 00;
