@@ -6,7 +6,7 @@ html{
 }
 body{
   font-family: 'Climate Crisis', cursive;
-  background-image: url(hs-veteriner-klinigi-5174041.jpg);
+  background-color: rgba(128, 0, 128, 0.67);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -120,6 +120,7 @@ transition: 1s;
 text-shadow: 0 0 10px pink;
 }
 /* yerleşim */
+
 #yer{
 background-color: rgba(0, 0, 255, 0.445);
 height: 90%;
@@ -163,6 +164,20 @@ transition: 1s;
 #pipl:hover{
   text-shadow: 0 0 50px rgb(142, 0, 0);
 }
+
+#headerMap{
+  font-family: sans-serif;
+}
+.headerPhone img{
+  width: auto;
+  height: 40px;
+  vertical-align: middle;
+  display: flex;
+
+}
+.headerPhone{
+  vertical-align: middle;
+}
 .builder{
 width: 40%;
 background-color: rgba(0, 0, 255, 0.459);
@@ -175,6 +190,51 @@ display:inline-block;
 vertical-align: top;
 margin-left: 5px;
 margin-right: 5px;
+}
+.logo{
+  background-image: url("i.webp");
+  display:block;
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+  border-radius: 10px;
+  transition: 1s;
+}
+#header{
+  
+  background-color: rgba(255, 255, 255, 0.592);
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
+  width:1190,5px;
+  margin-left:19%;
+  border-radius:10px;
+  transition:1s;
+  margin-bottom: 0%;
+  position: fixed;
+}
+#header:hover{
+  background-color:white;
+}
+.headerPhone{
+  display: flex;
+  color: black;
+  
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+}
+.rightTop{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* header:.margin-bottom:0%;; */
+}
+.rightBottom{
+  display: flex;
+  justify-content: flex-end;
 }
 .boss{
 width: 250px;
@@ -196,9 +256,10 @@ display: none;
 position: relative;
 z-index: 10;
 }
-/* #check{
-  position:none;
-} */
+#check{
+  position:absolute;
+  opacity: 0;
+} 
 span{
 background-color: white;
 height: 2px;
