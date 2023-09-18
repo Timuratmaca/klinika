@@ -6,15 +6,19 @@ html{
 }
 body{
   font-family: 'Climate Crisis', cursive;
-  background-color: rgba(128, 0, 128, 0.67);
+  background-image: url(WhatsApp\ Görsel\ 2023-09-10\ saat\ 20.38.39.jpg);
+  /* !!!!!!!!!!!!!!!!!!!! */
+  backdrop-filter: blur(100px);
+  /* !!!!!!!!!!!!!!!!!!!! */
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
-p{
+.ameliyatlar p{
   /* box-shadow: 0 0 10px black;ws */
   margin-bottom: 2%;
   text-align: center;
+  overflow-y: scroll;
 }
 h1{
   margin-left: 300px;
@@ -23,6 +27,12 @@ h1{
   text-align: center;
   margin-right: 20px;
   margin-top: 20px;
+  
+}
+.her{
+ width:400px;
+ margin-left: 33%;
+ margin-top: 2%;
 }
 #yantaraf{
 background-color: rgba(0, 0, 0, 0.172);
@@ -44,6 +54,7 @@ font-family: 'Reem Kufi Ink', sans-serif;
 font-size: 25px;
 transition: 0.3s;
 background-color: rgba(0, 0, 0, 0.534);
+
 }
 a:hover{
 transition: 10ms;
@@ -57,7 +68,7 @@ box-shadow: 0 0 10px ;
  border-radius: 40px;
  box-shadow: 10px 10px 10px 10px  rgba(128, 0, 128, 0.386);
  margin-bottom: 100px;
- margin-top: 100px;
+ margin-top: 150px;
  transition: 1.3s;
  width: calc(100% - 320px);
  overflow: hidden;
@@ -167,6 +178,9 @@ transition: 1s;
 
 #headerMap{
   font-family: sans-serif;
+  display: flex;
+  
+  margin-bottom: 0%;
 }
 .headerPhone img{
   width: auto;
@@ -175,9 +189,7 @@ transition: 1s;
   display: flex;
 
 }
-.headerPhone{
-  vertical-align: middle;
-}
+
 .builder{
 width: 40%;
 background-color: rgba(0, 0, 255, 0.459);
@@ -201,17 +213,20 @@ margin-right: 5px;
   transition: 1s;
 }
 #header{
-  
+  align-items: center;
   background-color: rgba(255, 255, 255, 0.592);
   display: flex;
   flex-direction: row ;
   justify-content: space-between;
-  width:1190,5px;
-  margin-left:19%;
+  left: 280px;
   border-radius:10px;
   transition:1s;
   margin-bottom: 0%;
   position: fixed;
+  width: calc(100% - 280px);
+  top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 #header:hover{
   background-color:white;
@@ -219,20 +234,26 @@ margin-right: 5px;
 .headerPhone{
   display: flex;
   color: black;
-  
+  background: none;
+  align-items:center;
+  /* background-color: none; */
+  /* box-shadow: none; */
+  box-shadow: none !important;
+  transition: 0s;
 }
 .right{
   display: flex;
   flex-direction: column;
   margin-bottom: 0px;
 }
+
 .rightTop{
   display: flex;
   justify-content: flex-end;
   align-items: center;
   /* header:.margin-bottom:0%;; */
 }
-.rightBottom{
+#rightBottom{
   display: flex;
   justify-content: flex-end;
 }
@@ -324,8 +345,11 @@ span::after{
 .photos{
   width: 60px ;
   display: inline-block;
-  border-radius: 40px;
-  
+  box-shadow: none;
+  transition:1s;
+}
+.photos:hover{
+  filter: drop-shadow(0 0 15px black);
 }
 #web{
   color: brown;

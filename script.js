@@ -6,7 +6,7 @@
 // }
 
 //  //console.log(window);
-alert("hs veteriner klinği")
+// alert("hs veteriner klinği")
 console.log("timur")
 
 let comments = document.getElementsByClassName("coments")
